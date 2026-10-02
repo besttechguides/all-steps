@@ -1,0 +1,760 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>All Steps — the 30 October 2026 harassment duty file</title>
+  <meta name="description" content="Check your workplace against the 'all reasonable steps' sexual harassment duty and the new third-party harassment rule (Employment Rights Act 2025, expected 30 October 2026). Gap check, training log, print pack. Data stays on your device. Not legal advice." />
+  <meta name="robots" content="index,follow" />
+
+  <style>
+    :root {
+      --ink: #1a1714; --soft: #5c564e; --paper: #f3eee6; --card: #fffaf4;
+      --line: #ddd4c6; --maroon: #6e1d2a; --navy: #1c2433; --ok: #1d6b48;
+      --shadow: 0 12px 32px rgba(26,23,20,.08); --r: 16px;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: "IBM Plex Sans", system-ui, sans-serif;
+      background: var(--paper); color: var(--ink);
+      display: grid; grid-template-columns: 248px 1fr; min-height: 100vh;
+    }
+    button, input, select, textarea { font-family: inherit; font-size: 16px; }
+    button {
+      -webkit-appearance: none; appearance: none; touch-action: manipulation;
+      cursor: pointer; -webkit-tap-highlight-color: rgba(110,29,42,.2);
+    }
+    aside { background: var(--navy); color: #e6e0d6; padding: 22px 14px; }
+    .brand { display: flex; gap: 10px; align-items: center; margin-bottom: 22px; }
+    .mark {
+      width: 36px; height: 36px; border-radius: 9px; background: var(--maroon);
+      color: #fff; display: grid; place-items: center; font-weight: 700;
+    }
+    .brand h1 { font-family: "Source Serif 4", Georgia, "Times New Roman", serif; font-size: 22px; }
+    .brand p { font-size: 11px; color: #9aa3b4; }
+    nav { display: flex; flex-direction: column; gap: 6px; }
+    nav button {
+      background: transparent; border: 0; color: #c9c2b6; text-align: left;
+      padding: 12px; border-radius: 10px; min-height: 44px;
+    }
+    nav button.on { background: #2a3348; color: #fff; }
+    .foot { margin-top: 24px; font-size: 11px; color: #8b93a6; line-height: 1.45; }
+    main { padding: 26px 26px 72px; }
+    .page { display: none; max-width: 980px; }
+    .page.on { display: block; }
+    .head { display: flex; justify-content: space-between; gap: 12px; flex-wrap: wrap; align-items: flex-end; margin-bottom: 18px; }
+    h2 { font-family: "Source Serif 4", Georgia, "Times New Roman", serif; font-size: 30px; }
+    .muted { color: var(--soft); font-size: 14px; line-height: 1.5; }
+    .btn { border: 0; border-radius: 10px; padding: 11px 16px; font-weight: 600; font-size: 14px; min-height: 44px; }
+    .btn-a { background: var(--maroon); color: #fff; }
+    .btn-b { background: #fff; border: 1px solid var(--line); }
+    .btn-g { background: #e7f6ee; color: #145c3a; }
+    .stats { display: grid; grid-template-columns: repeat(3,1fr); gap: 12px; margin-bottom: 16px; }
+    .stat { background: var(--card); border: 1px solid var(--line); border-radius: var(--r); padding: 16px; box-shadow: var(--shadow); }
+    .stat b { display: block; font-family: "Source Serif 4", Georgia, "Times New Roman", serif; font-size: 28px; }
+    .stat span { font-size: 11px; text-transform: uppercase; letter-spacing: .06em; color: var(--soft); }
+    .panel { background: var(--card); border: 1px solid var(--line); border-radius: var(--r); padding: 16px; box-shadow: var(--shadow); margin-bottom: 14px; }
+    .step {
+      display: flex; gap: 12px; align-items: flex-start;
+      padding: 12px 0; border-bottom: 1px solid #efe6d8;
+    }
+    .step:last-child { border-bottom: 0; }
+    .step input { width: 22px; height: 22px; margin-top: 2px; flex: 0 0 22px; }
+    .step h3 { font-size: 15px; margin-bottom: 4px; }
+    label { display: block; font-size: 12px; font-weight: 600; color: var(--soft); margin-bottom: 6px; }
+    input[type=text], input[type=date], input[type=number], input[type=email], select, textarea {
+      width: 100%; padding: 10px 12px; border: 1px solid var(--line);
+      border-radius: 10px; background: #fff; margin-bottom: 12px;
+    }
+    textarea { min-height: 80px; }
+    .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+    .pill { display: inline-block; font-size: 11px; font-weight: 600; padding: 3px 8px; border-radius: 999px; }
+    .hot { background: #fde8ea; color: #6e1d2a; }
+    .ok { background: #e7f6ee; color: #145c3a; }
+    .soon { background: #fff3e6; color: #9a4b12; }
+    table { width: 100%; border-collapse: collapse; font-size: 14px; }
+    th { text-align: left; font-size: 11px; text-transform: uppercase; color: var(--soft); padding: 8px; border-bottom: 1px solid var(--line); }
+    td { padding: 10px 8px; border-bottom: 1px solid #efe6d8; }
+    .letter { background: #fff; border: 1px solid var(--line); border-radius: 12px; padding: 22px; line-height: 1.55; }
+    .letter h3 { font-family: "Source Serif 4", Georgia, "Times New Roman", serif; margin: 0 0 10px; }
+    .poster {
+      background: var(--navy); color: #fff; border-radius: 12px; padding: 28px 24px; line-height: 1.45;
+    }
+    .poster h3 { font-family: "Source Serif 4", Georgia, "Times New Roman", serif; font-size: 28px; margin-bottom: 12px; }
+    .overlay {
+      position: fixed; inset: 0; background: rgba(26,23,20,.5);
+      display: flex; align-items: flex-start; justify-content: center;
+      padding: 20px 12px; z-index: 30; overflow: auto;
+      visibility: hidden; pointer-events: none; opacity: 0;
+    }
+    .overlay.open { visibility: visible; pointer-events: auto; opacity: 1; }
+    .modal { background: var(--card); width: min(820px,100%); border-radius: 18px; padding: 20px; }
+    .actions { display: flex; gap: 8px; flex-wrap: wrap; }
+    .empty { text-align: center; color: var(--soft); padding: 28px 8px; }
+    @media (max-width: 900px) {
+      body { grid-template-columns: 1fr; }
+      aside { min-height: auto; }
+      nav { display: grid; grid-template-columns: 1fr 1fr; }
+      main { padding: 16px 14px 80px; }
+      .stats, .grid2 { grid-template-columns: 1fr; }
+    }
+    @media print {
+      aside, .noprint { display: none !important; }
+      body { display: block; background: #fff; }
+      .overlay { position: static; visibility: visible; opacity: 1; pointer-events: auto; background: none; padding: 0; }
+    }
+    @media print {
+      .overlay:not(.open) { display: none !important; }
+      .poster { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+    }
+    .sitebar { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; }
+    .sitebar select { width: auto; min-width: 220px; margin: 0; }
+/* ---- shared paywall / data module (injected by _build/build.js) ---- */
+.pw-banner{display:flex;gap:12px;align-items:center;justify-content:space-between;flex-wrap:wrap;background:#fff7e0;border:1px solid #f1d58a;color:#5a4300;border-radius:12px;padding:10px 14px;margin:0 0 18px;font-size:13.5px;line-height:1.45}
+.pw-banner.pw-full{background:#eef7f2;border-color:#b9dcc8;color:#18452f}
+.pw-banner.pw-expired{background:#fde8ea;border-color:#f4c4cd;color:#7a1630}
+.pw-banner b{font-weight:700}
+.pw-cta{display:inline-block;background:#1f2a44;color:#fff!important;text-decoration:none;border-radius:9px;padding:9px 14px;font-weight:600;font-size:13.5px;min-height:40px;line-height:22px;border:0;cursor:pointer}
+.pw-cta.pw-alt{background:#fff;color:#1f2a44!important;border:1px solid #c9cfdb}
+.pw-modal-bg{position:fixed;inset:0;background:rgba(15,20,30,.55);display:none;align-items:flex-start;justify-content:center;padding:40px 14px;z-index:9999;overflow:auto}
+.pw-modal-bg.open{display:flex}
+.pw-modal{background:#fffdf8;border-radius:18px;max-width:560px;width:100%;padding:24px;box-shadow:0 30px 80px rgba(0,0,0,.3);font-size:14.5px;line-height:1.5;color:#1a1a1a}
+.pw-modal h3{font-size:21px;margin:0 0 8px}
+.pw-modal ul{margin:10px 0 14px 18px}
+.pw-offers{display:flex;flex-direction:column;gap:8px;margin:14px 0}
+.pw-offer{display:flex;justify-content:space-between;gap:10px;align-items:center;border:1px solid #e3dccf;border-radius:12px;padding:10px 12px;background:#fff}
+.pw-offer small{display:block;color:#666;font-size:12px}
+.pw-wm{position:relative;overflow:hidden}
+.pw-wm::after{content:"DEMO \00B7  PREVIEW ONLY";position:absolute;left:-10%;top:42%;width:120%;text-align:center;transform:rotate(-24deg);font:700 54px/1 system-ui,sans-serif;letter-spacing:.08em;color:rgba(190,30,45,.16);pointer-events:none;white-space:nowrap}
+.pw-wm-tag{display:inline-block;background:#be1e2d;color:#fff;font-size:11px;font-weight:700;letter-spacing:.06em;padding:3px 8px;border-radius:6px;margin-bottom:10px}
+.pw-lock{margin:14px 0 4px;border:1px dashed #c9b68a;border-radius:12px;padding:14px;background:repeating-linear-gradient(135deg,#fbf6ea,#fbf6ea 10px,#f6efdd 10px,#f6efdd 20px);color:#5a4300;font-size:14px}
+.pw-lock .pw-bar{height:10px;border-radius:5px;background:#e7dcc1;margin:8px 0}
+.pw-data{margin-top:18px;border:1px solid #ddd4c6;border-radius:14px;padding:16px;background:#fff}
+.pw-data h3{font-size:17px;margin:0 0 6px}
+.pw-data p{font-size:13.5px;line-height:1.5;color:#4a4a4a;margin:0 0 8px}
+.pw-row{display:flex;gap:8px;flex-wrap:wrap;margin-top:8px}
+.pw-btn{border:1px solid #c9cfdb;background:#fff;border-radius:9px;padding:9px 14px;font-weight:600;font-size:13.5px;min-height:40px;cursor:pointer;color:#1a1a1a}
+.pw-btn.pw-danger{border-color:#f4c4cd;background:#fde8ea;color:#8b1e3f}
+.pw-disclaimer{font-size:12.5px;line-height:1.5;color:#5a5a5a;border-left:3px solid #c9b68a;padding:6px 10px;margin:12px 0;background:#fffaf0}
+.pw-licence{font-size:11px;opacity:.8;margin-top:10px}
+@media print{.pw-banner,.pw-modal-bg,.pw-data,.pw-noprint{display:none!important}.pw-wm::after{color:rgba(190,30,45,.22)}}
+.pw-placeholder{background:#fff3c4;color:#5a4500;padding:0 4px;border-radius:3px;font-family:ui-monospace,Menlo,Consolas,monospace}
+
+  </style>
+</head>
+<body>
+  <aside>
+    <div class="brand">
+      <div class="mark">A</div>
+      <div><h1>All Steps</h1><p>Duty file · 30 Oct 2026</p></div>
+    </div>
+    <nav>
+      <button type="button" class="on" data-go="dash">Board</button>
+      <button type="button" data-go="risks">Risks</button>
+      <button type="button" data-go="steps">Steps</button>
+      <button type="button" data-go="train">Training log</button>
+      <button type="button" data-go="docs">Print pack</button>
+      <button type="button" data-go="biz">Business</button>
+      <button type="button" data-go="law">The duty</button>
+    </nav>
+    <p class="foot">From 30 October 2026 (government timetable) you must take all reasonable steps to prevent sexual harassment, and you must not permit third parties to harass staff. England, Wales and Scotland. Not legal advice.</p>
+  </aside>
+  <main>
+    <section id="dash" class="page on">
+      <div class="head">
+        <div>
+          <h2>Holes in the file</h2>
+          <p class="muted">A tribunal may ask what else you could reasonably have done. Unticked steps are where to look first. If you decide a step is not reasonable here, write down why (Acas suggests this).</p>
+        </div>
+        <button type="button" class="btn btn-b noprint" id="seed">Load sample gym</button>
+      </div>
+      <div class="stats">
+        <div class="stat"><span>Days to 30 October</span><b id="sDays">—</b></div>
+        <div class="stat"><span>Steps done</span><b id="sDone">0/0</b></div>
+        <div class="stat"><span>Staff trained</span><b id="sTrain">0</b></div>
+      </div>
+      <div class="panel" id="gapBox"></div>
+    </section>
+
+    <section id="risks" class="page">
+      <div class="head">
+        <div>
+          <h2>Where it can happen</h2>
+          <p class="muted">The EHRC says that an employer is unlikely to comply with the duty without a risk assessment. Tick what applies here, then keep a dated note of what you will do about each one.</p>
+        </div>
+      </div>
+      <div class="panel" id="riskList"></div>
+    </section>
+
+    <section id="steps" class="page">
+      <div class="head">
+        <div>
+          <h2>All reasonable steps</h2>
+          <p class="muted">Not just some of them: all the steps that are reasonable for this workplace. Tick only what you have actually done. This list is a starting point, not a complete or official list.</p>
+        </div>
+      </div>
+      <div class="panel" id="stepList"></div>
+    </section>
+
+    <section id="train" class="page">
+      <div class="head">
+        <div>
+          <h2>Training log</h2>
+          <p class="muted">Generic, one-off slides are unlikely to be enough. The EHRC and Acas expect training suited to your workplace and kept up to date. Record who attended, and when.</p>
+        </div>
+        <div class="actions noprint">
+          <button type="button" class="btn btn-a" id="addTrain">Add attendance</button>
+        </div>
+      </div>
+      <div class="panel" id="trainList"></div>
+    </section>
+
+    <section id="docs" class="page">
+      <div class="head">
+        <div>
+          <h2>Print pack</h2>
+          <p class="muted">Policy, staff-room poster, customer notice, attendance sheet. Put your name in Business first.</p>
+        </div>
+      </div>
+      <div class="panel actions noprint">
+        <button type="button" class="btn btn-a" data-doc="policy">Policy</button>
+        <button type="button" class="btn btn-b" data-doc="poster">Staff poster</button>
+        <button type="button" class="btn btn-b" data-doc="customer">Customer notice</button>
+        <button type="button" class="btn btn-b" data-doc="sheet">Attendance sheet</button>
+      </div>
+      <div id="docOut"></div>
+    </section>
+
+    <section id="biz" class="page">
+      <div class="head"><h2>Business</h2></div>
+      <div class="panel" style="max-width:720px">
+        <div class="grid2">
+          <div><label>Trading name</label><input id="bName" type="text" /></div>
+          <div><label>Kind of workplace</label>
+            <select id="bKind">
+              <option value="gym">Gym / studio</option>
+              <option value="pub">Pub / bar / restaurant</option>
+              <option value="salon">Salon / clinic</option>
+              <option value="shop">Shop</option>
+              <option value="office">Office</option>
+              <option value="other">Other</option>
+            </select>
+          </div>
+        </div>
+        <div class="grid2">
+          <div><label>Site address</label><input id="bAddr" type="text" /></div>
+          <div><label>How many staff</label><input id="bHead" type="number" min="1" /></div>
+        </div>
+        <div class="grid2">
+          <div><label>Person who handles reports</label><input id="bWho" type="text" /></div>
+          <div><label>Their email or phone</label><input id="bContact" type="text" /></div>
+        </div>
+        <label>Second reporting route (not the same person)</label>
+        <input id="bSecond" type="text" placeholder="Owner, HR adviser, or named deputy" />
+        <button type="button" class="btn btn-a" id="saveBiz">Save</button>
+        <p class="muted" id="bizOk"></p>
+      </div>
+      <div id="pwData" style="max-width:720px"></div>
+    </section>
+
+    <section id="law" class="page">
+      <div class="head"><h2>The duty</h2></div>
+      <div class="panel">
+        <p class="muted">Employment Rights Act 2025 ss.20–22, which amend the Equality Act 2010 ss.40 and 40A. The government timetable (updated 25 September 2026) says these take effect on 30 October 2026. The commencement regulations had not been published on legislation.gov.uk when we checked on 1 October 2026. Applies in England, Wales and Scotland, not Northern Ireland.</p>
+        <p style="margin:12px 0">Employers must take <strong>all reasonable steps</strong> to prevent sexual harassment of their employees, not merely “reasonable steps”. This is the preventative duty that has applied since 26 October 2024, now with a higher bar. From the same date, an employer must not <strong>permit a third party</strong> (a customer, client, contractor or member of the public) to harass an employee in the course of their employment. An employer “permits” it if it failed to take all reasonable steps to prevent it. The third-party rule covers harassment related to age, disability, gender reassignment, race, religion or belief, sex and sexual orientation, not only sexual harassment.</p>
+        <p class="muted">If a sexual harassment claim succeeds and the tribunal finds a breach of the preventative duty, it may increase the compensation by up to 25% (Equality Act 2010 s.124A). This is not a fine, and staff cannot bring a claim for breach of the duty on its own. The EHRC can take enforcement action even when nobody has brought a claim. The new power to set out specific “reasonable steps” in regulations (s.22) does not replace the general duty. GOV.UK expects those regulations in 2027/28 at the earliest, after consultation. The higher standard applies first. Since 6 April 2026, disclosures about sexual harassment can be protected whistleblowing disclosures (s.23).</p>
+        <p class="pw-disclaimer"><strong>Not legal advice.</strong> All Steps helps you organise and record what you have done. It cannot tell you that you have taken all reasonable steps: that depends on your workplace, and a tribunal decides it case by case. This is not an official or EHRC-approved checklist, and there is no statutory Code of Practice on harassment. Use the EHRC technical guidance on sexual harassment and harassment at work (the EHRC says it is updating it for the 2026 changes), and take advice from a qualified adviser on a live complaint.</p>
+        <p class="muted">Sources: Employment Rights Act 2025 ss.20–23 (legislation.gov.uk); GOV.UK “Plan to Make Work Pay and Employment Rights Act: timeline update” (updated 25 Sept 2026); GOV.UK “Preventing workplace sexual harassment: enabling regulations about reasonable steps”; EHRC technical guidance. Law checked 1 October 2026.</p>
+      </div>
+    </section>
+  </main>
+
+  <div class="overlay" id="trainModal">
+    <div class="modal">
+      <div class="head"><h2>Training attendance</h2><button type="button" class="btn btn-b" id="closeTrain">Close</button></div>
+      <label>Name</label><input id="tName" type="text" />
+      <label>Role</label><input id="tRole" type="text" />
+      <label>Date trained</label><input id="tDate" type="date" />
+      <label>Session</label>
+      <select id="tKind">
+        <option value="all-staff">All-staff prevention session</option>
+        <option value="manager">Manager / how to handle a report</option>
+        <option value="induction">Induction</option>
+        <option value="refresh">Refresh</option>
+      </select>
+      <button type="button" class="btn btn-a" id="saveTrain">Save</button>
+    </div>
+  </div>
+
+<script>
+var BUILD = {"app":"all-steps","title":"All Steps","version":"1.1.0","schema":2,"built":"2026-10-02","edition":"demo","tier":"demo","tierName":"Free demo","limits":{"sites":1,"train":3},"features":{},"renewBy":null,"demoNote":"1 site and up to 3 training records. The gap check and risk list work in full.","fullNote":"","unlockPitch":"Print the policy, staff poster, customer notice and attendance sheet without the watermark, with the full wording and your details. Unlimited training log with refresher dates and CSV.","privacyExtra":"Training records name your staff, so they are personal data and you are the controller under UK GDPR. Do not record details of harassment complaints in this app.","seller":{"name":"Best Tech Guides","email":"lemondogs@yahoo.co.uk","legal":"Andrew Ellis","address":"11 Laneside Avenue, Toton, Nottingham NG9 6LW","trader":"Best Tech Guides is a trading name of Andrew Ellis, 11 Laneside Avenue, Toton, Nottingham NG9 6LW"},"offers":[{"key":"PACK","urlKey":"PAYHIP_URL_ALLSTEPS_PACK","name":"All Steps Site Pack","price":"£39 one-off","blurb":"1 site. Full print pack, gap check, risk list, unlimited training log with refresher dates and CSV export. Free v1.x updates.","url":"https://payhip.com/b/bBaI7"},{"key":"GROUP","urlKey":"PAYHIP_URL_ALLSTEPS_GROUP","name":"All Steps Multi-site Group","price":"£99 one-off","blurb":"Up to 20 sites in one file, with a site switcher and group overview. Everything in the Site Pack.","url":"https://payhip.com/b/0mWQ7"}],"upgrades":[]};
+/* ---- shared paywall / data module (injected by _build/build.js). ES5 on purpose. ---- */
+var PW = (function () {
+  var B = BUILD;
+  function el(tag, cls, html) { var e = document.createElement(tag); if (cls) e.className = cls; if (html != null) e.innerHTML = html; return e; }
+  function esc(s) { return String(s == null ? "" : s).replace(/[&<>"']/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", "\"": "&quot;", "'": "&#39;" }[c]; }); }
+  function todayIso() { var d = new Date(); return d.getFullYear() + "-" + ("0" + (d.getMonth() + 1)).slice(-2) + "-" + ("0" + d.getDate()).slice(-2); }
+  var isDemo = B.edition === "demo";
+  var seller = B.seller || { name: "", email: "", trader: "" };
+  function contactHtml() {
+    return seller.email.indexOf("@") > 0 ? "<a href=\"mailto:" + esc(seller.email) + "\">" + esc(seller.email) + "</a>" : "<span class=\"pw-placeholder\">" + esc(seller.email) + "</span>";
+  }
+  var expired = !!(B.renewBy && todayIso() > B.renewBy);
+
+  function limit(name) { var v = B.limits[name]; return (v == null || v < 0) ? Infinity : v; }
+  function feature(name) { return !!B.features[name]; }
+
+  /* A store link that has not been filled in yet still starts with PAYHIP_URL_ */
+  function linkReady(url) { return !!url && url.indexOf("PAYHIP_URL_") !== 0 && url.indexOf("http") === 0; }
+  function offerHtml(o) {
+    return "<div class=\"pw-offer\"><div><b>" + esc(o.name) + "</b> \u2014 " + esc(o.price) + "<small>" + esc(o.blurb) + "</small></div>" +
+      "<a class=\"pw-cta\" target=\"_blank\" rel=\"noopener\" data-pw-href=\"1\" href=\"" + esc(o.url) + "\">" + (o.cta || "Buy on Payhip") + "</a></div>";
+  }
+  var bg = null;
+  function modal(title, bodyHtml, offers) {
+    if (!bg) {
+      bg = el("div", "pw-modal-bg"); bg.id = "pwModal";
+      bg.addEventListener("click", function (e) { if (e.target === bg || e.target.getAttribute("data-pw-close")) bg.classList.remove("open"); });
+      document.body.appendChild(bg);
+    }
+    var list = (offers || B.offers || []).map(offerHtml).join("");
+    bg.innerHTML = "<div class=\"pw-modal\" role=\"dialog\" aria-modal=\"true\"><h3>" + esc(title) + "</h3>" + bodyHtml +
+      (list ? "<div class=\"pw-offers\">" + list + "</div>" : "") +
+      "<div class=\"pw-row\"><button type=\"button\" class=\"pw-btn\" data-pw-close=\"1\" id=\"pwClose\">Not now</button></div>" +
+      "<p class=\"pw-licence\" id=\"pwModalSeller\">Seller: " + esc(seller.trader) + ". No VAT is added: " + esc(seller.name) + " is not VAT registered, so the price you see is the total you pay. Payment and delivery are handled by Payhip, which deals with any UK or EU digital VAT within that price. This app never sees your card details. Your data stays in this browser. Questions: " + contactHtml() + ".</p></div>";
+    bg.classList.add("open");
+  }
+  function upsell(reason) {
+    var msg = isDemo
+      ? "<p>" + esc(reason) + "</p><p>The free demo shows you the dates and the gaps. The full version removes the limits, prints clean documents without the watermark, and includes the complete wording.</p>"
+      : "<p>" + esc(reason) + "</p><p>Your current plan is <b>" + esc(B.tierName) + "</b>. A larger plan raises the limit. Your data stays where it is: export a backup here and import it into the new file.</p>";
+    modal(isDemo ? "Unlock the full version" : "You have reached your plan limit", msg, isDemo ? B.offers : (B.upgrades || B.offers));
+  }
+  /* Check a count limit before adding. Returns true if allowed. */
+  function gate(name, currentCount, what) {
+    if (expired) { modal("Membership copy expired", "<p>This copy was issued for a membership period ending " + esc(B.renewBy) + ". Download the current file from your Payhip membership page. Your data is still here and you can still export it.</p>", []); return false; }
+    var max = limit(name);
+    if (currentCount >= max) { upsell((isDemo ? "The free demo is limited to " : "This plan is limited to ") + max + " " + what + "."); return false; }
+    return true;
+  }
+  function locked(label) {
+    return "<div class=\"pw-lock pw-noprint\"><b>" + esc(label || "The rest of this document is in the full version.") + "</b>" +
+      "<div class=\"pw-bar\" style=\"width:92%\"></div><div class=\"pw-bar\" style=\"width:78%\"></div><div class=\"pw-bar\" style=\"width:85%\"></div>" +
+      "<button type=\"button\" class=\"pw-cta\" data-pw-unlock=\"1\">Unlock full version</button></div>";
+  }
+  function watermark(html) { return "<div class=\"pw-wm\"><span class=\"pw-wm-tag\">DEMO \u00B7 PREVIEW \u2014 NOT FOR USE</span>" + html + "</div>"; }
+
+  /* ---- backup / restore / wipe: everything stays in localStorage on this device ---- */
+  function download(name, text, type) {
+    var blob = new Blob([text], { type: type || "application/json" });
+    var a = document.createElement("a");
+    a.href = URL.createObjectURL(blob); a.download = name;
+    document.body.appendChild(a); a.click();
+    setTimeout(function () { URL.revokeObjectURL(a.href); a.remove(); }, 500);
+    PW.lastDownload = { name: name, size: text.length, text: text };
+  }
+  function exportBackup(data) {
+    var payload = { app: B.app, schema: B.schema, exportedAt: new Date().toISOString(), edition: B.edition, tier: B.tier, data: data };
+    download(B.app + "-backup-" + todayIso() + ".json", JSON.stringify(payload, null, 2));
+  }
+  function parseBackup(text) {
+    var obj = JSON.parse(text);
+    if (!obj || obj.app !== B.app || !obj.data) throw new Error("This is not a " + B.title + " backup file.");
+    return obj.data;
+  }
+  function importBackupFile(file, apply) {
+    var r = new FileReader();
+    r.onload = function () {
+      try { var msg = apply(parseBackup(String(r.result))); alert(msg || "Backup imported."); }
+      catch (e) { alert("Import failed: " + e.message); }
+    };
+    r.readAsText(file);
+  }
+  /* Renders the privacy + backup panel into a container. opts: {get, apply, wipe, extra} */
+  function dataPanel(container, opts) {
+    if (!container) return;
+    container.innerHTML = "<div class=\"pw-data\"><h3>Your data stays on this device</h3>" +
+      "<p>" + esc(B.title) + " has no server and no account. Everything you type is saved only in this browser's local storage (<code>localStorage</code>) on this device. Nothing is sent to us or to anyone else. The page makes no network requests after it loads.</p>" +
+      "<p>" + (B.privacyExtra || "") + "</p>" +
+      "<p>Clearing your browser data deletes it, and another browser or computer will not see it. <b>Export a backup regularly</b> and keep it somewhere safe. To move to a new version or a bigger plan, export here and import into the new file.</p>" +
+      "<div class=\"pw-row\"><button type=\"button\" class=\"pw-btn\" id=\"pwExport\">Export backup (.json)</button>" +
+      "<label class=\"pw-btn\" style=\"display:inline-block;margin:0\">Import backup<input type=\"file\" id=\"pwImport\" accept=\".json,application/json\" style=\"display:none\"></label>" +
+      "<button type=\"button\" class=\"pw-btn pw-danger\" id=\"pwWipe\">Delete all data on this device</button></div>" +
+      "<p class=\"pw-licence\">" + esc(B.title) + " " + esc(B.version) + " \u00B7 " + (isDemo ? "free demo" : esc(B.tierName) + " \u00B7 licensed copy: do not upload this file to a public website") + " \u00B7 built " + esc(B.built) + "</p>" +
+      "<p class=\"pw-licence\" id=\"pwSeller\">Sold by " + esc(seller.name) + " \u00B7 support: " + contactHtml() + " \u00B7 not VAT registered, no VAT added to the price</p>" +
+      "<p class=\"pw-licence\" id=\"pwTrader\">" + esc(seller.trader) + ". Email: " + contactHtml() + "</p></div>";
+    container.querySelector("#pwExport").onclick = function () { exportBackup(opts.get()); };
+    container.querySelector("#pwImport").onchange = function (e) { var f = e.target.files[0]; if (f) importBackupFile(f, opts.apply); e.target.value = ""; };
+    container.querySelector("#pwWipe").onclick = function () {
+      if (!confirm("Delete everything " + B.title + " has stored in this browser? Export a backup first if you might need it.")) return;
+      opts.wipe(); alert("Deleted from this device.");
+    };
+  }
+  function banner(container) {
+    if (!container) return;
+    var b;
+    if (expired) {
+      b = el("div", "pw-banner pw-expired", "<div><b>Membership copy expired " + esc(B.renewBy) + ".</b> Download the current file from your Payhip membership page. Export still works.</div>");
+    } else if (isDemo) {
+      b = el("div", "pw-banner", "<div><b>Free demo.</b> " + esc(B.demoNote) + " Documents are watermarked previews.</div>" +
+        "<button type=\"button\" class=\"pw-cta\" data-pw-unlock=\"1\" id=\"pwUnlockTop\">Unlock full version</button>");
+    } else {
+      b = el("div", "pw-banner pw-full", "<div><b>" + esc(B.tierName) + "</b> \u00B7 " + esc(B.fullNote) + "</div>");
+    }
+    container.insertBefore(b, container.firstChild);
+  }
+  document.addEventListener("click", function (e) {
+    var t = e.target.closest ? e.target.closest("[data-pw-unlock],[data-pw-href]") : null;
+    if (!t) return;
+    if (t.hasAttribute("data-pw-unlock")) { e.preventDefault(); modal("Unlock the full version", "<p>" + esc(B.unlockPitch) + "</p>", B.offers); return; }
+    if (t.hasAttribute("data-pw-href") && !linkReady(t.getAttribute("href"))) {
+      e.preventDefault();
+      alert("The store link is not set up yet (" + t.getAttribute("href") + ").");
+    }
+  });
+  return { B: B, seller: seller, isDemo: isDemo, expired: expired, limit: limit, feature: feature, gate: gate, upsell: upsell, modal: modal,
+    locked: locked, watermark: watermark, dataPanel: dataPanel, banner: banner, download: download, exportBackup: exportBackup,
+    parseBackup: parseBackup, esc: esc, todayIso: todayIso, linkReady: linkReady, lastDownload: null };
+})();
+
+(function () {
+  var KEY = "allsteps.v2";
+  var OLD_KEY = "allsteps.v1";
+  var DEADLINE = "2026-10-30";
+
+  var STEPS = [
+    { id: "policy", title: "Written policy people can actually find", body: "A short policy that names sexual harassment, third-party harassment, how to report, and what happens next. Not buried in a 40-page handbook." },
+    { id: "risk", title: "Risk assessment dated this year", body: "Where it can happen here: customers, closing time, changing rooms, lone working, events with alcohol, messages after hours. Note what you will do about each risk." },
+    { id: "train", title: "Training that is current and suited to this workplace", body: "Session suited to this workplace. Managers get a separate session on how to take a report." },
+    { id: "two-routes", title: "Two ways to report", body: "Not only the shift supervisor. A second named person or an email that does not go solely to the alleged problem." },
+    { id: "third", title: "Written customer / visitor rule", body: "What staff do when a customer, client or contractor crosses the line: warning, refusal of service, ask to leave, call the manager, call the police." },
+    { id: "poster", title: "Notice on the wall", body: "Staff can see how to report without asking anyone. Customers can see that harassment of staff is not tolerated." },
+    { id: "online", title: "Work chat and after-hours messages covered", body: "Harassment can happen online as well as in person. Cover work chats, social media and messages after hours." },
+    { id: "events", title: "Work events and alcohol thought through", body: "Who is on duty, how people get home, what happens if someone is drunk and abusive." },
+    { id: "record", title: "A place to write what happened", body: "Date, who reported, what you did. If it is only in someone’s head, it is much harder to show later what you knew and what you did." },
+    { id: "review", title: "Review after any incident and at least yearly", body: "Check whether the steps actually work. Update the risk assessment and the policy when something changes." }
+  ];
+
+  var RISKS = [
+    { id: "customers", title: "Staff deal with the public / members / patients" },
+    { id: "alcohol", title: "Alcohol is served or present at work events" },
+    { id: "lone", title: "People work alone or close up the site" },
+    { id: "power", title: "Clear seniority gaps (owner, head coach, manager vs juniors)" },
+    { id: "change", title: "Changing rooms, treatment rooms or overnight stays" },
+    { id: "offsite", title: "Off-site work, client visits or overnight events" },
+    { id: "messages", title: "Work happens on WhatsApp, Instagram or personal phones" },
+    { id: "agency", title: "Agency, freelance or volunteer staff on site" }
+  ];
+
+  function pad(n) { return ("0" + n).slice(-2); }
+  function isoLocal(d) { return d.getFullYear() + "-" + pad(d.getMonth() + 1) + "-" + pad(d.getDate()); }
+  function today() { return isoLocal(new Date()); }
+  function parse(iso) { return new Date(iso + "T00:00:00"); }
+  function fmt(iso) {
+    if (!iso) return "—";
+    return parse(iso).toLocaleDateString("en-GB", { day: "numeric", month: "short", year: "numeric" });
+  }
+  function addMonths(iso, n) {
+    var d = parse(iso), day = d.getDate();
+    d.setDate(1); d.setMonth(d.getMonth() + n);
+    var last = new Date(d.getFullYear(), d.getMonth() + 1, 0).getDate();
+    d.setDate(Math.min(day, last));
+    return isoLocal(d);
+  }
+  function daysTo(iso) {
+    return Math.round((parse(iso) - parse(today())) / 86400000);
+  }
+  function esc(s) {
+    return String(s || "").replace(/[&<>"']/g, function (c) {
+      return { "&": "&amp;", "<": "&lt;", ">": "&gt;", "\"": "&quot;", "'": "&#39;" }[c];
+    });
+  }
+  function uid() { return Math.random().toString(36).slice(2, 9); }
+
+  var def = {
+    name: "Northbridge Leisure",
+    kind: "gym",
+    addr: "14 Quay Street, Manchester",
+    head: 8,
+    who: "Alex Rowan, general manager",
+    contact: "alex@northbridge.example",
+    second: "Owner — Sam Keane, 07700 900123"
+  };
+
+  function newSite(biz) { return { id: uid(), biz: Object.assign({}, biz || def), steps: {}, risks: {}, train: [] }; }
+  function fixSite(s) {
+    s = s && typeof s === "object" ? s : newSite();
+    s.id = s.id || uid();
+    s.biz = Object.assign({}, def, s.biz || {});
+    s.steps = s.steps || {}; s.risks = s.risks || {};
+    s.train = Array.isArray(s.train) ? s.train : [];
+    return s;
+  }
+  /* accepts the v2 shape {sites:[...], cur} and the original v1 shape {biz, steps, risks, train} */
+  function normalise(raw) {
+    if (!raw || typeof raw !== "object") return { v: 2, cur: 0, sites: [newSite()] };
+    if (!Array.isArray(raw.sites)) raw = { v: 2, cur: 0, sites: [raw] };
+    var st = { v: 2, cur: Number(raw.cur) || 0, sites: raw.sites.map(fixSite) };
+    if (!st.sites.length) st.sites.push(newSite());
+    if (st.cur >= st.sites.length) st.cur = 0;
+    return st;
+  }
+  function enforceLimits(st) {
+    var notes = [];
+    var maxSites = PW.limit("sites"), maxTrain = PW.limit("train");
+    if (st.sites.length > maxSites) { notes.push((st.sites.length - maxSites) + " site(s)"); st.sites = st.sites.slice(0, maxSites); }
+    st.sites.forEach(function (s) {
+      if (s.train.length > maxTrain) { notes.push((s.train.length - maxTrain) + " training record(s) at " + (s.biz.name || "a site")); s.train = s.train.slice(0, maxTrain); }
+    });
+    if (st.cur >= st.sites.length) st.cur = 0;
+    return notes;
+  }
+  function load() {
+    try {
+      var raw = localStorage.getItem(KEY);
+      if (!raw) {
+        var old = localStorage.getItem(OLD_KEY);
+        if (!old) return normalise(null);
+        var migrated = normalise(JSON.parse(old));
+        enforceLimits(migrated);
+        return migrated;
+      }
+      var st = normalise(JSON.parse(raw));
+      enforceLimits(st);
+      return st;
+    } catch (e) {
+      return normalise(null);
+    }
+  }
+  function save() { try { localStorage.setItem(KEY, JSON.stringify(state)); } catch (e) { alert("This browser\u2019s storage for local files is full, so your last change was NOT saved. Use \u201cExport backup (.json)\u201d under \u201cYour data stays on this device\u201d now, then remove old records or other saved local pages."); } }
+  var state = load();
+  function cur() { return state.sites[state.cur]; }
+
+  function go(id) {
+    document.querySelectorAll(".page").forEach(function (p) { p.classList.remove("on"); });
+    document.querySelectorAll("nav button").forEach(function (b) {
+      b.classList.toggle("on", b.getAttribute("data-go") === id);
+    });
+    document.getElementById(id).classList.add("on");
+    render();
+  }
+  document.querySelectorAll("nav button").forEach(function (b) {
+    b.addEventListener("click", function () { go(b.getAttribute("data-go")); });
+  });
+
+  function doneCount(site) {
+    var n = 0;
+    STEPS.forEach(function (s) { if (site.steps[s.id]) n++; });
+    return n;
+  }
+  function gaps() {
+    return STEPS.filter(function (s) { return !cur().steps[s.id]; });
+  }
+
+  function fillBiz() {
+    var b = cur().biz;
+    document.getElementById("bName").value = b.name || "";
+    document.getElementById("bKind").value = b.kind || "gym";
+    document.getElementById("bAddr").value = b.addr || "";
+    document.getElementById("bHead").value = b.head || 1;
+    document.getElementById("bWho").value = b.who || "";
+    document.getElementById("bContact").value = b.contact || "";
+    document.getElementById("bSecond").value = b.second || "";
+  }
+
+  var KIND_LABEL = { "all-staff": "All-staff prevention session", manager: "Manager / how to handle a report", induction: "Induction", refresh: "Refresh" };
+
+  function render() {
+    fillBiz();
+    var d = daysTo(DEADLINE);
+    document.getElementById("sDays").textContent = d > 0 ? d : "In force";
+    document.getElementById("sDone").textContent = doneCount(cur()) + "/" + STEPS.length;
+    document.getElementById("sTrain").textContent = cur().train.length;
+
+    var missing = gaps();
+    var html = "";
+    if (missing.length) {
+      html += "<p class=\"muted\" style=\"margin-bottom:10px\">" + (d > 0 ? "Still open before 30 October:" : "Still open:") + "</p>";
+      missing.forEach(function (s) {
+        html += "<div class=\"step\"><div><span class=\"pill hot\">Missing</span> <strong>" + esc(s.title) + "</strong><div class=\"muted\">" + esc(s.body) + "</div></div></div>";
+      });
+    } else {
+      html = "<p>Every listed step is ticked. Keep the training log current when someone new starts. This does not guarantee that you have taken all reasonable steps. It is your record of what you did.</p>";
+    }
+    document.getElementById("gapBox").innerHTML = html;
+
+    document.getElementById("riskList").innerHTML = RISKS.map(function (r) {
+      return "<label class=\"step\"><input type=\"checkbox\" data-risk=\"" + r.id + "\"" + (cur().risks[r.id] ? " checked" : "") + " /><div><h3>" + esc(r.title) + "</h3></div></label>";
+    }).join("");
+
+    document.getElementById("stepList").innerHTML = STEPS.map(function (s) {
+      return "<label class=\"step\"><input type=\"checkbox\" data-step=\"" + s.id + "\"" + (cur().steps[s.id] ? " checked" : "") + " /><div><h3>" + esc(s.title) + "</h3><p class=\"muted\">" + esc(s.body) + "</p></div></label>";
+    }).join("");
+
+    var tr = cur().train;
+    if (!tr.length) {
+      document.getElementById("trainList").innerHTML = "<div class=\"empty\">Nobody recorded yet.</div>";
+    } else {
+      document.getElementById("trainList").innerHTML = "<table><thead><tr><th>Name</th><th>Role</th><th>Date</th><th>Session</th>" +
+
+        "<th></th></tr></thead><tbody>" +
+        tr.map(function (t) {
+          var extra = "";
+
+          return "<tr><td>" + esc(t.name) + "</td><td>" + esc(t.role) + "</td><td>" + fmt(t.date) + "</td><td>" + esc(KIND_LABEL[t.kind] || t.kind) + "</td>" + extra + "<td><button type=\"button\" class=\"btn btn-b\" data-del=\"" + t.id + "\">Remove</button></td></tr>";
+        }).join("") + "</tbody></table>" +
+
+        "";
+    }
+
+  }
+
+
+
+  document.getElementById("riskList").addEventListener("change", function (e) {
+    var id = e.target.getAttribute("data-risk");
+    if (!id) return;
+    cur().risks[id] = !!e.target.checked;
+    save();
+    render();
+  });
+  document.getElementById("stepList").addEventListener("change", function (e) {
+    var id = e.target.getAttribute("data-step");
+    if (!id) return;
+    cur().steps[id] = !!e.target.checked;
+    save();
+    render();
+  });
+
+  document.getElementById("saveBiz").onclick = function () {
+    cur().biz = {
+      name: document.getElementById("bName").value,
+      kind: document.getElementById("bKind").value,
+      addr: document.getElementById("bAddr").value,
+      head: Number(document.getElementById("bHead").value || 1),
+      who: document.getElementById("bWho").value,
+      contact: document.getElementById("bContact").value,
+      second: document.getElementById("bSecond").value
+    };
+    save();
+    document.getElementById("bizOk").textContent = "Saved on this device.";
+    render();
+  };
+
+  document.getElementById("addTrain").onclick = function () {
+    if (!PW.gate("train", cur().train.length, "training record" + (PW.limit("train") === 1 ? "" : "s"))) return;
+    document.getElementById("tName").value = "";
+    document.getElementById("tRole").value = "";
+    document.getElementById("tDate").value = today();
+    document.getElementById("tKind").value = "all-staff";
+    document.getElementById("trainModal").classList.add("open");
+  };
+  document.getElementById("closeTrain").onclick = function () {
+    document.getElementById("trainModal").classList.remove("open");
+  };
+  document.getElementById("saveTrain").onclick = function () {
+    var name = document.getElementById("tName").value.trim();
+    if (!name) return;
+    if (!PW.gate("train", cur().train.length, "training records")) return;
+    cur().train.push({
+      id: uid(),
+      name: name,
+      role: document.getElementById("tRole").value.trim(),
+      date: document.getElementById("tDate").value,
+      kind: document.getElementById("tKind").value
+    });
+    save();
+    document.getElementById("trainModal").classList.remove("open");
+    render();
+  };
+
+  document.getElementById("trainList").addEventListener("click", function (e) {
+    var id = e.target.getAttribute("data-del");
+    if (!id) return;
+    cur().train = cur().train.filter(function (t) { return t.id !== id; });
+    save();
+    render();
+  });
+
+
+
+  document.getElementById("seed").onclick = function () {
+    if (cur().train.length && !window.confirm("Replace this site's file with the sample gym?")) return;
+    var s = cur();
+    s.biz = Object.assign({}, def);
+    s.risks = { customers: true, power: true, change: true, messages: true, lone: true };
+    s.steps = { policy: true, poster: false, train: false, "two-routes": true, third: false, risk: true, online: false, events: false, record: false, review: false };
+    s.train = [
+      { id: uid(), name: "Alex Rowan", role: "GM", date: "2025-11-02", kind: "manager" },
+      { id: uid(), name: "Maya Cole", role: "Front of house", date: "2025-11-04", kind: "all-staff" }
+    ].slice(0, PW.limit("train"));
+    save();
+    render();
+  };
+
+  function kindLabel() {
+    return {
+      gym: "gym and studio",
+      pub: "pub, bar or restaurant",
+      salon: "salon or clinic",
+      shop: "shop",
+      office: "office",
+      other: "workplace"
+    }[cur().biz.kind] || "workplace";
+  }
+
+  function riskLines() {
+    var map = {};
+    RISKS.forEach(function (r) { map[r.id] = r.title; });
+    var out = [];
+    Object.keys(cur().risks).forEach(function (k) {
+      if (cur().risks[k]) out.push(map[k] || k);
+    });
+    return out.length ? out.join("; ") : "public-facing work and ordinary staff interactions";
+  }
+
+
+
+  /* Demo: a watermarked first glimpse. The full document wording is only in the paid file. */
+  function docs(kind) {
+    var b = cur().biz;
+    var titles = { policy: "Prevention of harassment policy", poster: "Staff poster: how to report", customer: "Notice to customers and visitors", sheet: "Training attendance — prevention of harassment" };
+    var body = "<div class=\"letter\"><h3>" + esc(titles[kind] || "Document") + "</h3><p>" + esc(b.name) + " · " + esc(b.addr) + "</p>";
+    if (kind === "policy") body += "<p><strong>Risks we have identified here:</strong> " + esc(riskLines()) + ".</p><p><strong>How to report.</strong> " + esc(b.who) + " (" + esc(b.contact) + "), second route: " + esc(b.second || "the owner") + ".</p>";
+    if (kind === "poster") body += "<p>Reporting routes: <strong>" + esc(b.who) + "</strong> or <strong>" + esc(b.second || "the owner") + "</strong>.</p>";
+    if (kind === "sheet") body += "<p>" + cur().train.length + " attendance record(s) on file.</p>";
+    body += "</div>";
+    return PW.watermark(body) + PW.locked("The full " + (titles[kind] || "document").toLowerCase() + " wording, ready to print without the watermark, is in the paid version.");
+  }
+
+
+  document.getElementById("docs").addEventListener("click", function (e) {
+    var kind = e.target.getAttribute("data-doc");
+    if (!kind) return;
+    document.getElementById("docOut").innerHTML = docs(kind) +
+      "<div class=\"actions noprint\" style=\"margin-top:12px\">" +
+
+
+      "<button type=\"button\" class=\"btn btn-a\" data-pw-unlock=\"1\">Unlock to print</button>" +
+
+      "</div>";
+    var btn = document.getElementById("printDoc");
+    if (btn) btn.onclick = function () { window.print(); };
+  });
+
+  PW.banner(document.querySelector("main"));
+  PW.dataPanel(document.getElementById("pwData"), {
+    get: function () { return state; },
+    apply: function (data) {
+      var next = normalise(JSON.parse(JSON.stringify(data)));
+      var notes = enforceLimits(next);
+      state = next; save(); render();
+      return "Backup imported: " + state.sites.length + " site(s)." + (notes.length ? " Not imported because of your plan limits: " + notes.join(", ") + "." : "");
+    },
+    wipe: function () { localStorage.removeItem(KEY); localStorage.removeItem(OLD_KEY); state = load(); render(); }
+  });
+  render();
+})();
+</script>
+</body>
+</html>
